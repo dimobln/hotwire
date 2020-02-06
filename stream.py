@@ -40,7 +40,7 @@ if __name__ == '__main__':
     sender = ['cnn_us', 'msnbc_us', 'cnn_us', 'cnn_us']
     kannal = {'cnn_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/njashdasdnaskbdkajsbd/black/640x360.png" group-title="US",CNN',
              'msnbc_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/232323/black/640x360.png" group-title="US",MSNBC',
-             'cnn_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/njashdasdnaskbdkajsbd/black/640x360.png" group-title="US",',
+             'cnn_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/njashdasdnaskbdkajsbd/black/640x360.png" group-title="US",ABC',
         }
 
     with open("response.m3u8", "w") as file:
