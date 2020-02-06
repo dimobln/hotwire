@@ -37,10 +37,11 @@ def main(channel):
 
 if __name__ == '__main__':
 
-    sender = ['cnn_us', 'msnbc_us', 'cnn_us', 'cnn_us']
-    kannal = {'cnn_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/njashdasdnaskbdkajsbd/black/640x360.png" group-title="US",',
-             'msnbc_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/232323/black/640x360.png" group-title="US",',
-             'cnn_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/njashdasdnaskbdkajsbd/black/640x360.png" group-title="US",',
+    sender = ['cnn_us', 'msnbc_us', 'espn_mia', 'espn2_mia']
+    kannal = {'cnn_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/9ff53034eab3535b79c7/black/640x360.png" group-title="US",CNN',
+             'msnbc_us':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/03e9f17e1e11033e6db4/black/640x360.png" group-title="US",MSNBC',
+             'espn_mia':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/6df04c3126e6914187ce/black/640x360.png" group-title="US",ESPN',
+             'espn2_mia':'tvg-id="" tvg-name="" tvg-logo="https://images.zattic.com/logos/cafd3f3f1615f2e16a79/black/640x360.png" group-title="US",ESPN 2',
         }
 
     with open("response.m3u8", "w") as file:
