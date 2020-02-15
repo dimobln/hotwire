@@ -26,7 +26,7 @@ def main(channel):
     status, response = request('POST', '/stream/live', data={
         'channel': channel,
         'quality': 'hd',
-        'stream_type': 'hls7',
+        'stream_type': 'dash',
         'https': True,
         'client_ip': '1.2.3.4',
         'uuid': 'abc123',
