@@ -27,7 +27,7 @@ def main(channel):
         'channel': channel,
         'quality': 'hd',
         'stream_type': 'hls7',
-        'maxrate': 5000
+        'maxrate': 5000,
         'https': True,
         'client_ip': '1.2.3.4',
         'uuid': 'abc123',
